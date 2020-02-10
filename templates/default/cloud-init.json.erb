@@ -1,0 +1,15 @@
+{
+  "api.version": "v1",
+  "source":
+    {
+      "name": "Cloud Init Log",
+      "sourceType": "LocalFile",
+      "automaticDateParsing": true,
+      "multilineProcessingEnabled": false,
+      "useAutolineMatching": true,
+      "forceTimeZone": false,
+      "timeZone": "UTC",
+      "category": "<%= @category %>",
+      "pathExpression": "/var/log/cloud-init.log"
+    }
+}
